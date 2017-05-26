@@ -11,9 +11,11 @@ if __name__ == '__main__' :
     installPath = ''
 
     for path in sys.path:
-        if 'site-packages' in path:
+        strfind = 'site-packages'
+        if strfind in path:
             installPath = path
-            break
+            if installPath[len(strfind) - len(strfind) * 2 :] == strfind :
+                break
 
     installPath = installPath + "/xwLibrary"
 
@@ -37,4 +39,3 @@ if __name__ == '__main__' :
             print "\033[0;31;1mxwLibrary\033[0m uninstall Success"
         except Exception,e :
             print Exception,":",e
-
