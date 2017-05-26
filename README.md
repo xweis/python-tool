@@ -5,4 +5,4 @@
 sudo python setup.py install
 ```
 ### vim 编辑器
-https://github.com/fisadev/fisa-nvim-config
+https://github.com/fisadev/fisa-vim-config
