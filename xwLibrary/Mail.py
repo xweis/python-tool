@@ -2,7 +2,7 @@
 #coding=utf-8
 
 '''
-    mail = Mail_class.mail('smtp.exmail.qq.com',465,'it@huomaotv.com','VFboAvxK3A^qg%zl',['xiawei@huomaotv.com','xiongyunfeng@huomaotv.com'])
+    mail = Mail_class.mail('smtp.exmail.qq.com',465,'it@huomaotv.com','xxxxxxxx',['xiawei@huomaotv.com','xiongyunfeng@huomaotv.com'])
     mail.send_mail("hello","<a href='http://huomaotv.cn'>火猫</a>")
 '''
 
